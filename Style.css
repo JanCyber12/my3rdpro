@@ -1,0 +1,146 @@
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+    min-height: 100vh;
+}
+
+nav {
+    background: #222;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 16px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 28px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background 0.2s, color 0.2s;
+}
+
+nav ul li a:hover {
+    background: #ffd700;
+    color: #222;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: rgba(255,255,255,0.95);
+    box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+    margin: 60px auto;
+    max-width: 600px;
+    border-radius: 18px;
+}
+
+.hero h1 {
+    font-size: 2.8em;
+    margin-bottom: 24px;
+    color: #222;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.hero p {
+    font-size: 1.3em;
+    color: #555;
+    margin-bottom: 36px;
+}
+
+.hero button {
+    background: #222;
+    color: #ffd700;
+    border: none;
+    padding: 14px 36px;
+    font-size: 1.1em;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: background 0.2s, color 0.2s;
+}
+
+.hero button:hover {
+    background: #ffd700;
+    color: #222;
+}
+
+/* About page specific styling */
+.about-section {
+    background: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+    margin: 60px auto;
+    max-width: 650px;
+    border-radius: 18px;
+    padding: 60px 30px;
+    text-align: center;
+}
+
+.about-section h1 {
+    color: #222;
+    font-size: 2.5em;
+    margin-bottom: 18px;
+    font-weight: 700;
+}
+
+.about-section p {
+    color: #444;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+
+.contact-section {
+    background: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+    margin: 60px auto;
+    max-width: 650px;
+    border-radius: 18px;
+    padding: 60px 30px;
+    text-align: center;
+}
+
+.contact-section h1 {
+    color: #222;
+    font-size: 2.5em;
+    margin-bottom: 18px;
+    font-weight: 700;
+}
+
+.contact-section p {
+    color: #444;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.contact-section a {
+    color: #222;
+    font-weight: bold;
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+
+.contact-section a:hover {
+    color: #ffd700;
+}
+
